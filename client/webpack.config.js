@@ -33,8 +33,8 @@ module.exports = () => {
         name: 'PWA Text Editor',
         short_name: 'Text Editor',
         description: 'Write and track notes or code',
-        background_color: "#7eb4e2",
-        theme_color: "#ffffff",
+        background_color: "#225ca3",
+        theme_color: "#225ca3",
         start_url: './',
         publicPath: './',
         icons: [
