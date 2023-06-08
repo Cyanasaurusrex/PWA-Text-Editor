@@ -28,6 +28,8 @@ module.exports = () => {
         title: 'Text editor'
       }),
       new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
         name: 'PWA Text Editor',
         short_name: 'Text Editor',
         description: 'Write and track notes or code',
